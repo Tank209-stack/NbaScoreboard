@@ -36,7 +36,9 @@ let away =  document.querySelector(".away")
     
         function reset(){
             awayScore = 0;
+            homeScore = 0;
             away.textContent = awayScore
+            home.textContent =homeScore
         }
     
     
